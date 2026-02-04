@@ -2,7 +2,7 @@ import image_7d6b53efc078c0030fa563bc08163619de4a413e from 'figma:asset/7d6b53ef
 import React from 'react';
 import { Bell, User } from 'lucide-react';
 import { ImageWithFallback } from '@/app/components/figma/ImageWithFallback';
-import image_f921ee1be3aa73b34b93fb4c58e6184360a04be5 from 'figma:asset/f921ee1be3aa73b34b93fb4c58e6184360a04be5.png';
+import image_f921ee1be3aa73b34b93fb4c58e6184360a04be5 from 'src/assets/f921ee1be3aa73b34b93fb4c58e6184360a04be5.png';
 
 interface HeaderProps {
   setActiveTab?: (tab: string) => void;
