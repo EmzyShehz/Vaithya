@@ -1,9 +1,9 @@
-import image_e4a06c2e5310bf3279847237a4634192b0b18136 from 'figma:asset/e4a06c2e5310bf3279847237a4634192b0b18136.png';
+import image_e4a06c2e5310bf3279847237a4634192b0b18136 from '@/assets/e4a06c2e5310bf3279847237a4634192b0b18136.png';
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Phone, ArrowRight, Check, ChevronLeft } from 'lucide-react';
-import vaithyaText from 'figma:asset/7d6b53efc078c0030fa563bc08163619de4a413e.png';
-import vaithyaHorizontal from 'figma:asset/a2ace1e244d4363559689aa7ca71fc828c17259e.png';
+import vaithyaText from '@/assets/7d6b53efc078c0030fa563bc08163619de4a413e.png';
+import vaithyaHorizontal from '@/assets/a2ace1e244d4363559689aa7ca71fc828c17259e.png';
 import { OTPInput } from './OTPInput';
 
 interface AuthContainerProps {
