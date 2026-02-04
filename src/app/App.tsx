@@ -14,6 +14,8 @@ import { SplashScreen } from './components/auth/SplashScreen';
 import { PhoneAuth } from './components/auth/PhoneAuth';
 import { AuthContainerMaterial } from './components/auth/AuthContainerMaterial';
 import { OnboardingFlowMaterial, UserData } from './components/auth/OnboardingFlowMaterial';
+import { PWAInstallPrompt } from './components/PWAInstallPrompt';
+import { PWAUpdateNotification } from './components/PWAUpdateNotification';
 import type { Goal } from './components/HealthGoals';
 
 type AuthState = 'splash' | 'auth' | 'onboarding' | 'authenticated';
@@ -179,6 +181,8 @@ export default function App() {
       {authState === 'authenticated' && <Header setActiveTab={setActiveTab} />}
       {renderPage()}
       {authState === 'authenticated' && <BottomNav activeTab={activeTab} setActiveTab={setActiveTab} />}
+      <PWAInstallPrompt />
+      <PWAUpdateNotification />
     </div>
   );
 }

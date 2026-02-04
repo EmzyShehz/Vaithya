@@ -1,0 +1,10 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="512" height="512" rx="128" fill="#337e51"/>
+  
+  <!-- Letter V -->
+  <path d="M140 120L256 372L372 120H320L256 280L192 120H140Z" fill="white"/>
+  
+  <!-- Heartbeat line accent -->
+  <path d="M120 420H150L170 390L190 440L210 390L230 420H392" stroke="white" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

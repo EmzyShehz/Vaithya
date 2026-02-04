@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowLeft, Edit, BookOpen, Instagram, MessageCircle, Crown, Star, Shield, FileText, RotateCcw, Gift, LogOut, ChevronRight, X } from 'lucide-react';
+import { PWAStatus } from './PWAStatus';
 
 interface ProfilePageProps {
   setActiveTab: (tab: string) => void;
@@ -123,6 +124,9 @@ export function ProfilePage({ setActiveTab, userName, userInitial, onLogout }: P
             </button>
           </div>
         </div>
+
+        {/* PWA Status */}
+        <PWAStatus />
 
         {/* Menu Items */}
         <div className="bg-white rounded-2xl shadow-sm overflow-hidden">
