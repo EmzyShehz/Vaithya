@@ -6,7 +6,7 @@ import { HealthInfo } from './onboarding/HealthInfo';
 import { MedicalConditions } from './onboarding/MedicalConditions';
 import { GoalsSelection } from './onboarding/GoalsSelection';
 import { MaterialThemeWrapper } from '@/theme/MaterialThemeWrapper';
-import vaithyaHorizontal from 'figma:asset/a2ace1e244d4363559689aa7ca71fc828c17259e.png';
+import vaithyaHorizontal from '@/assets/a2ace1e244d4363559689aa7ca71fc828c17259e.png';
 
 export interface UserData {
   name: string;
