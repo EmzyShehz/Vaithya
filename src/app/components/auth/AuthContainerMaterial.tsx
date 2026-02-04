@@ -1,4 +1,4 @@
-import image_e4a06c2e5310bf3279847237a4634192b0b18136 from 'figma:asset/e4a06c2e5310bf3279847237a4634192b0b18136.png';
+import image_e4a06c2e5310bf3279847237a4634192b0b18136 from '@/assets/e4a06c2e5310bf3279847237a4634192b0b18136.png';
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import {
