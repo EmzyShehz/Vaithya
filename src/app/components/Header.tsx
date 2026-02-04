@@ -1,4 +1,4 @@
-import image_7d6b53efc078c0030fa563bc08163619de4a413e from 'figma:asset/7d6b53efc078c0030fa563bc08163619de4a413e.png';
+import image_7d6b53efc078c0030fa563bc08163619de4a413e from 'src/assets/7d6b53efc078c0030fa563bc08163619de4a413e.png';
 import React from 'react';
 import { Bell, User } from 'lucide-react';
 import { ImageWithFallback } from '@/app/components/figma/ImageWithFallback';
