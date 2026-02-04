@@ -12,8 +12,8 @@ import {
   Chip,
 } from '@mui/material';
 import { ArrowForward, Check, ChevronLeft } from '@mui/icons-material';
-import vaithyaText from 'figma:asset/7d6b53efc078c0030fa563bc08163619de4a413e.png';
-import vaithyaHorizontal from 'figma:asset/a2ace1e244d4363559689aa7ca71fc828c17259e.png';
+import vaithyaText from '@/assets/7d6b53efc078c0030fa563bc08163619de4a413e.png';
+import vaithyaHorizontal from '@/assets/a2ace1e244d4363559689aa7ca71fc828c17259e.png';
 import { OTPInput } from './OTPInput';
 import { MaterialThemeWrapper } from '@/theme/MaterialThemeWrapper';
 
